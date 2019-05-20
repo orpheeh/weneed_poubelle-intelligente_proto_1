@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "l'api du prototype 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nve Hounkponou Orphée",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

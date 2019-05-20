@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#ui h1 {
+    font-size: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#glCanvas {
+    border: 2px solid #777;
+    width: 99vw;
+    height: 99vh;
+}
+
+#ui {
+    opacity: 0.5;
+    background-color: #000000;
+    width: 25vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #179b38;
+    border-radius: 10px;
+    color: #ffffff;
+    margin: 20px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+}
+
+#create_dis {
+    background-color: rgb(72, 255, 179);
+    padding: 10px;
+    margin-left: 10px;
+    display: none;
+}
+
+.rubbish_type {
+    display: inline-block;
+    margin: 10px;
+}
+
+.rubbish_type label {
+    display: block;
+}
+
+#name {
+    width: 98%;
+    height: 40px;
+    border: none;
+    padding: 5px;
+}
+
+#deployment {
+    margin-top: 20px;
+    display: none;
+}
+
+#deployment p {
+    color: #ffffff;
+}
+
+#dispo-list {
+    width: 200px;
+    background-color: #000000;
+    opacity: 0.5;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.btn2 {
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+}
+
+
+#list {
+    display: none;
+}
+
+.btn2:hover, .active {
+    background: #777;
+}
+
+#dispo-info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    opacity: 0.5;
+    padding: 20px 50px;
+    display: none;
+}
